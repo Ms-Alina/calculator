@@ -1,0 +1,10 @@
+.calc__math-result_type_error_theme_dark {
+  color: rgb(124, 20, 20);
+  font-size: 2rem;
+}
+
+@media (max-width: 35rem) {
+  .calc__math-result_type_error_theme_dark {
+    font-size: 1.3rem;
+  }
+}

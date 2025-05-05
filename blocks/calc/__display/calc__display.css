@@ -1,0 +1,15 @@
+.calc__display {
+  max-width: 100%;
+  min-height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: #B5B8B1;
+  border-bottom: 3px solid #474A51;
+}
+
+@media (max-width: 35rem) {
+  .calc__display {
+    min-height: 7rem;
+  }
+}

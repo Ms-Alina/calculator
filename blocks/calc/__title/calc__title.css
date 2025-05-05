@@ -1,0 +1,11 @@
+.calc__title {
+  text-align: center;
+  font: 600 3rem/1.2 'Magistral Cyrillic', sans-serif;
+  color: #474A51;
+}
+
+@media (max-width: 35rem) {
+  .calc__title {
+    font-size: 2rem;
+  }
+}

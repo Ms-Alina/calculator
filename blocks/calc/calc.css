@@ -1,0 +1,12 @@
+.calc {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 35rem;
+}
+
+@media (max-width: 35rem) {
+  .calc {
+    max-width: 20rem;
+  }
+}

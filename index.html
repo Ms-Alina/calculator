@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+<body class="page">
+  <section class="calc">
+    <h1 class="calc__title">Калькулятор</h1>
+    <p class="calc__toggle-btn" onclick="darkLight()" >Включить темную тему</p>
+    <div class="calc__container">
+      <div class="calc__display">
+        <p class="calc__math-operation"></p>
+        <p class="calc__math-result"></p>
+      </div>
+      <div class="calc__grid">
+        <div class="calc__btn calc__btn_type_reset" onclick="clearDisplay()">C</div>
+        <div class="calc__btn calc__btn_type_operation" onclick="mathCalcSquare('&#8730;')">&#8730;</div>
+        <div class="calc__btn calc__btn_type_operation" onclick="addTooDisplay('%')">%</div>
+        <div class="calc__btn calc__btn_type_operation" onclick="addTooDisplay('/')">/</div>
+        <div class="calc__btn" onclick="addTooDisplay('7')">7</div>
+        <div class="calc__btn" onclick="addTooDisplay('8')">8</div>
+        <div class="calc__btn" onclick="addTooDisplay('9')">9</div>
+        <div class="calc__btn calc__btn_type_operation calc__btn_type_big-text" onclick="addTooDisplay('*')">*</div>
+        <div class="calc__btn" onclick="addTooDisplay('4')">4</div>
+        <div class="calc__btn" onclick="addTooDisplay('5')">5</div>
+        <div class="calc__btn" onclick="addTooDisplay('6')">6</div>
+        <div class="calc__btn calc__btn_type_operation calc__btn_type_big-text" onclick="addTooDisplay('-')">-</div>
+        <div class="calc__btn" onclick="addTooDisplay('1')">1</div>
+        <div class="calc__btn" onclick="addTooDisplay('2')">2</div>
+        <div class="calc__btn" onclick="addTooDisplay('3')">3</div>
+        <div class="calc__btn calc__btn_type_operation calc__btn_type_big-text" onclick="addTooDisplay('+')">+</div>
+        <div class="calc__btn calc__btn_type_big-text" onclick="plusMinus()">&plusmn;</div>
+        <div class="calc__btn" onclick="addTooDisplay('0')">0</div>
+        <div class="calc__btn" onclick="addTooDisplay('.')">.</div>
+        <div class="calc__btn  calc__btn_type_equals calc__btn_type_big-text" onclick="mathCalc()">=</div>
+      </div>
+    </div>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>

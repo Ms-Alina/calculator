@@ -1,0 +1,13 @@
+.calc__math-result {
+  margin: 0 2rem 1rem 1.5rem;
+  font: 400 2.7rem/1.2 'Magistral Cyrillic', sans-serif;
+  color: #474A51;
+  text-align: end;
+}
+
+@media (max-width: 35rem) {
+  .calc__math-result {
+    margin: 0 1rem 0.5rem 0.75rem;
+    font-size: 1.7rem;
+  }
+}

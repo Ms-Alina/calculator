@@ -1,0 +1,20 @@
+.calc__toggle-btn {
+  margin-top: 0;
+  font: 400 1rem/1.2 'Magistral Cyrillic', sans-serif;
+  color: #474A51;
+  text-align: center;
+
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.calc__toggle-btn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 35rem) {
+  .calc__toggle-btn {
+    font-size: 0.8rem;
+  }
+}

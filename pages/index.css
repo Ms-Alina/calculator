@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/_theme/page_theme_dark.css);
+
+@import url(../blocks/calc/calc.css);
+@import url(../blocks/calc/__title/calc__title.css);
+@import url(../blocks/calc/__toggle-btn/calc__toggle-btn.css);
+@import url(../blocks/calc/__toggle-btn/_theme/calc__toggle-btn_theme_dark.css);
+@import url(../blocks/calc/__title/_theme/calc__title_theme_dark.css);
+@import url(../blocks/calc/__display/calc__display.css);
+@import url(../blocks/calc/__display/_theme/calc__display_theme_dark.css);
+@import url(../blocks/calc/__math-result/calc__math-result.css);
+@import url(../blocks/calc/__math-result/_type/calc__math-result_type_error.css);
+@import url(../blocks/calc/__math-result/_theme/calc__math-result_type_error_theme_dark.css);
+@import url(../blocks/calc/__math-operation/calc__math-operation.css);
+@import url(../blocks/calc/__container/calc__container.css);
+@import url(../blocks/calc/__container/_theme/calc__container_theme_dark.css);
+@import url(../blocks/calc/__grid/calc__grid.css);
+@import url(../blocks/calc/__btn/calc__btn.css);
+@import url(../blocks/calc/__btn/_theme/calc__btn_theme_dark.css);
+@import url(../blocks/calc/__btn/_type/calc__btn_type_equals.css);
+@import url(../blocks/calc/__btn/_type/calc__btn_type_operation.css);
+@import url(../blocks/calc/__btn/_type/_theme/calc__btn_type_operation_theme_dark.css);
+@import url(../blocks/calc/__btn/_type/calc__btn_type_reset.css);
+@import url(../blocks/calc/__btn/_type/_theme/calc__btn_type_reset_theme_dark.css);
+@import url(../blocks/calc/__btn/_type/calc__btn_type_big-text.css);

@@ -1,0 +1,17 @@
+.calc__grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 80px);
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 35rem) {
+  .calc__grid {
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 10px;
+  }
+}
